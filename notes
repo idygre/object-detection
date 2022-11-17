@@ -1,0 +1,27 @@
+
+#Define first frame
+
+#capture video via webcam
+
+#read the video, assign to frame while true
+
+#convert frame to gray
+
+#apply a Gaussian Blur to gray image
+
+#convert first frame to gray if it's the first and continue
+
+#delta frame (compare first frame with current): 
+#apply absolute difference to the first frame and gray current frame
+
+#threshold: apply threshold tuple to the abs diff object at 30 and make it white(255)
+
+#show the gray image
+#show the abs diff delta frame
+
+#show the gray image
+
+#press 'q' to quit
+
+
+#*****     When running, on webcam show background first        *****
